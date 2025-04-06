@@ -11,7 +11,7 @@ Converts the original RGB image to grayscale. Each pixel will have a value betwe
 Canny.png:
 Applies Canny Edge Detection to highlight image edges. The output is a binary image where each pixel is 0 (black) or 255 (white).
 
-🔍 Canny Implementation Steps:
+Canny Implementation Steps:
 1. Noise reduction using Gaussian filter,
 
 2. Compute gradient magnitudes along X and Y axes, then combine,
@@ -27,4 +27,4 @@ FloydSteinberg.png:
 Implements Floyd-Steinberg Dithering, reducing the image to 16 grayscale intensity levels.
 
 Feel free to fork, explore, and enhance!
-Happy filtering! 🎨✨
+Happy filtering! 
