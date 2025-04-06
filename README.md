@@ -1,5 +1,5 @@
 # Image Filters Assignment
-This project is an implementation of basic image processing filters using either C++ or Python (your choice). The input is a classic RGB .png image of Lenna, included in the assignment ZIP file.
+This project is an implementation of basic image processing filters using Python. The input is a classic RGB .png image of Lenna.
 
 # Objective
 Your main task is to process the Lenna image and generate four output images, each showcasing a different filtering technique.
@@ -16,13 +16,13 @@ Applies Canny Edge Detection to highlight image edges.
 The output is a binary image where each pixel is 0 (black) or 255 (white).
 
 🔍 Canny Implementation Steps:
-Noise reduction using Gaussian filter
+1. Noise reduction using Gaussian filter,
 
-Compute gradient magnitudes along X and Y axes, then combine
+2. Compute gradient magnitudes along X and Y axes, then combine,
 
-Non-Maximum Suppression to remove spurious edges
+3. Non-Maximum Suppression to remove spurious edges,
 
-Apply Double Thresholding and Edge Tracking by Hysteresis
+4. Apply Double Thresholding and Edge Tracking by Hysteresis.
 
 Halftone.png
 Applies a Halftone effect using 2×2 square patterns.
